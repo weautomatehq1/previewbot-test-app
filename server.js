@@ -23,8 +23,14 @@ app.get("/", (_req, res) => {
     <body>
       <div class="card">
         <h1>PreviewBot Test App</h1>
-        <p>This is the main branch. If you see this in a preview deployment, the full pipeline is working.</p>
-        <p class="version">v1.0.0</p>
+        <p>This is a <strong>preview branch</strong> deployment. The landing page has been updated with new styling and content.</p>
+        <ul style="text-align: left; margin-top: 1rem; color: #ccc; list-style: none;">
+          <li>Docker build</li>
+          <li>Nginx reverse proxy</li>
+          <li>Lighthouse audit</li>
+          <li>GitHub PR comment</li>
+        </ul>
+        <p class="version">v1.1.0-preview</p>
       </div>
     </body>
     </html>
